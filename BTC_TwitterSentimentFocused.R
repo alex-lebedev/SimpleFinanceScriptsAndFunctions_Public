@@ -34,6 +34,8 @@ startDate = "2000-01-01"
 targetDate = as.Date(Sys.Date())
 
 pricePair = "BTC-USD"
+
+# List of Twitter influencers:
 influencerList = c('chamath','PrestonPysh','Breedlove22',
                    'APompliano','LynAldenContact',
                    'PeterMcCormack','creation247',
