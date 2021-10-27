@@ -1,7 +1,7 @@
 # estimateFD.R
 # Simple function to estimate fractal dimension of a stock time-series for a given period
 # relies on 'quantmod' and 'fractaldim'
-require('quantmod');require('fractaldim')
+require('quantmod'); require('fractaldim')
 estimateFD<- function(pricePair='DJI',
                       startDate='2000-01-01',
                       targetDate=Sys.Date()){
